@@ -1,0 +1,13 @@
+# Profile -> 2 types of profile of Spring Boot project -> Development and Production
+# It is the production profile of this project
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://dasdebarghya586:journalApp@cluster0.xi7kwbj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+
+server:
+  port: 9091
+  servlet:
+    context-path: /journal
